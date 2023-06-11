@@ -1,6 +1,6 @@
 function StringifyArray{
     param(
-        [arra]$Array
+        [array]$Array
     )
 
     "@('" + $($array -join ', ') + "')"
